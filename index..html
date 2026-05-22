@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Andino Gas | Distribución de Gas Envasado</title>
+
+<meta name="description" content="Andino Gas - Reparto rápido y seguro de garrafas. Atención personalizada, pedidos por WhatsApp y servicio confiable para hogares y comercios.">
+
+<link rel="icon" type="image/png" href="favicon.png">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+scroll-behavior:smooth;
+}
+
+body{
+font-family:'Poppins',sans-serif;
+background:#111;
+color:white;
+overflow-x:hidden;
+}
+
+header{
+position:fixed;
+top:0;
+width:100%;
+background:rgba(0,0,0,.85);
+backdrop-filter:blur(10px);
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:15px 8%;
+z-index:1000;
+}
+
+.logo{
+font-size:30px;
+font-weight:800;
+color:#ffb300;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+margin-left:25px;
+font-weight:500;
+transition:.3s;
+}
+
+nav a:hover{
+color:#ffb300;
+}
+
+.hero{
+height:100vh;
+background:
+linear-gradient(rgba(0,0,0,.55),rgba(0,0,0,.7)),
+url("img/portada.jpg");
+background-size:cover;
+background-position:center;
+display:flex;
+align-items:center;
+justify-content:center;
+text-align:center;
+padding:20px;
+}
+
+.hero-content{
+max-width:900px;
+}
+
+.hero h1{
+font-size:65px;
+font-weight:800;
+margin-bottom:20px;
+}
+
+.hero p{
+font-size:22px;
+margin-bottom:30px;
+color:#eee;
+}
+
+.btn{
+display:inline-block;
+padding:18px 35px;
+background:linear-gradient(90deg,#ff8c00,#ffb300);
+color:#111;
+font-weight:700;
+text-decoration:none;
+border-radius:12px;
+transition:.3s;
+}
+
+.btn:hover{
+transform:translateY(-3px);
+}
+
+section{
+padding:100px 8%;
+}
+
+.section-title{
+text-align:center;
+font-size:42px;
+margin-bottom:20px;
+color:#ffb300;
+}
+
+.section-text{
+text-align:center;
+max-width:900px;
+margin:auto;
+color:#ddd;
+font-size:18px;
+}
+
+.cards{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:25px;
+margin-top:50px;
+}
+
+.card{
+background:#1b1b1b;
+padding:30px;
+border-radius:18px;
+text-align:center;
+transition:.3s;
+}
+
+.card:hover{
+transform:translateY(-6px);
+}
+
+.card h3{
+margin-top:10px;
+color:#ffb300;
+}
+
+.gallery{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+gap:25px;
+margin-top:50px;
+}
+
+.gallery img{
+width:100%;
+height:300px;
+object-fit:cover;
+border-radius:18px;
+transition:.4s;
+}
+
+.gallery img:hover{
+transform:scale(1.05);
+}
+
+.contact{
+background:#1a1a1a;
+border-radius:25px;
+padding:50px;
+text-align:center;
+}
+
+.contact h3{
+font-size:35px;
+margin-bottom:15px;
+color:#ffb300;
+}
+
+.contact p{
+margin-bottom:10px;
+}
+
+.instagram{
+display:inline-block;
+margin-top:20px;
+padding:15px 30px;
+background:#E1306C;
+color:white;
+text-decoration:none;
+border-radius:10px;
+font-weight:600;
+}
+
+footer{
+background:black;
+text-align:center;
+padding:30px;
+margin-top:50px;
+color:#999;
+}
+
+.whatsapp{
+position:fixed;
+bottom:25px;
+right:25px;
+width:70px;
+height:70px;
+background:#25D366;
+border-radius:50%;
+display:flex;
+align-items:center;
+justify-content:center;
+font-size:32px;
+text-decoration:none;
+color:white;
+box-shadow:0 0 25px rgba(0,0,0,.4);
+z-index:999;
+}
+
+@media(max-width:768px){
+
+.hero h1{
+font-size:42px;
+}
+
+.hero p{
+font-size:18px;
+}
+
+nav{
+display:none;
+}
+
+}
+
+</style>
+</head>
+<body>
+
+<header>
+
+<div class="logo">🔥 ANDINO GAS</div>
+
+<nav>
+<a href="#empresa">Empresa</a>
+<a href="#servicios">Servicios</a>
+<a href="#galeria">Galería</a>
+<a href="#contacto">Contacto</a>
+</nav>
+
+</header>
+
+<section class="hero">
+
+<div class="hero-content">
+
+<h1>La energía que llega a tu hogar</h1>
+
+<p>
+Servicio profesional de distribución de garrafas.
+Atención rápida, confianza y compromiso para cada cliente.
+</p>
+
+<a class="btn"
+href="https://wa.me/5493476692166?text=Hola,%20quisiera%20consultar%20el%20precio%20de%20una%20garrafa%20y%20recibir%20informaci%C3%B3n%20sobre%20el%20servicio%20de%20reparto.">
+
+📲 Consultar por WhatsApp
+
+</a>
+
+</div>
+
+</section>
+
+<section id="empresa">
+
+<h2 class="section-title">Quiénes Somos</h2>
+
+<p class="section-text">
+
+En Andino Gas trabajamos para brindar un servicio seguro,
+rápido y confiable. Nuestro compromiso es llegar a cada hogar
+con atención personalizada y la tranquilidad que nuestros
+clientes merecen.
+
+</p>
+
+</section>
+
+<section id="servicios">
+
+<h2 class="section-title">¿Por qué elegirnos?</h2>
+
+<div class="cards">
+
+<div class="card">
+<h3>🚚 Entrega rápida</h3>
+<p>Reparto eficiente en toda la zona.</p>
+</div>
+
+<div class="card">
+<h3>💬 Atención personalizada</h3>
+<p>Asistencia directa por WhatsApp.</p>
+</div>
+
+<div class="card">
+<h3>🔥 Calidad garantizada</h3>
+<p>Compromiso y confianza en cada entrega.</p>
+</div>
+
+<div class="card">
+<h3>⭐ Experiencia</h3>
+<p>Servicio pensado para hogares y comercios.</p>
+</div>
+
+</div>
+
+</section>
+
+<section id="galeria">
+
+
+
+
+</section>
+
+<section id="contacto">
+
+<div class="contact">
+
+<h3>Contacto</h3>
+
+<p>📞 +54 9 3476 69-2166</p>
+
+<p>📸 Instagram: @andino.gas</p>
+
+<a class="instagram"
+href="https://www.instagram.com/andino.gas/"
+target="_blank">
+
+Ver Instagram
+
+</a>
+
+<br><br>
+
+<a class="btn"
+href="https://wa.me/5493476692166?text=Hola,%20quisiera%20consultar%20el%20precio%20de%20una%20garrafa%20y%20recibir%20informaci%C3%B3n%20sobre%20el%20servicio%20de%20reparto.">
+
+Solicitar Información
+
+</a>
+
+</div>
+
+</section>
+
+<footer>
+
+© 2026 Andino Gas - Todos los derechos reservados
+
+</footer>
+
+<a class="whatsapp"
+href="https://wa.me/5493476692166?text=Hola,%20quisiera%20consultar%20el%20precio%20de%20una%20garrafa%20y%20recibir%20informaci%C3%B3n%20sobre%20el%20servicio%20de%20reparto.">
+
+💬
+
+</a>
+
+</body>
+</html>
